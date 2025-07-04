@@ -79,7 +79,7 @@ const sdk = new NodeSDK({
   ],
 });
 sdk.start();
-console.log('🔹 OpenTelemetry tracing initialised');
+console.log('OpenTelemetry tracing initialised');
 
 async function shutdownTracing() {
   await sdk.shutdown();
