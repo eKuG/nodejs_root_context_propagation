@@ -43,7 +43,7 @@ fastify.listen({ port: PORT, host: '0.0.0.0' }, (err) => {
     fastify.log.error(err);
     process.exit(1);
   }
-  console.log('http://localhost:${PORT}/test`);
+  console.log(`🚀  GET http://localhost:${PORT}/test`);
 });
 
 
